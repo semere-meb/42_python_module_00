@@ -1,4 +1,4 @@
-def rec(day, maxdays):
+def rec(day, maxdays) -> None:
     if day > maxdays:
         return
     print(f"Day {day}")
@@ -6,7 +6,7 @@ def rec(day, maxdays):
     rec(day, maxdays)
 
 
-def ft_count_harvest_recursive():
+def ft_count_harvest_recursive() -> None:
     maxdays = int(input("Days until harvest: "))
     rec(1, maxdays)
     print("Harvest time!")

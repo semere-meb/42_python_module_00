@@ -1,4 +1,4 @@
-def ft_garden_summary():
+def ft_garden_summary() -> None:
     name = input("Enter garden name: ")
     number = input("Enter number of plants: ")
 
